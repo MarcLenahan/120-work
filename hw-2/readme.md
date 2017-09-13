@@ -7,5 +7,5 @@ _________________________________
  3.	I did not have any problems like I said before I already worked with Atom so I was very familiar with the settings.
  4.	I didn’t learn much that made me want to discuss further but I am excited to see how this class continues in the future.
  5.	I helped answering questions about the command prompts and how some classmates can’t get certain commands to run.
-- ## [Website link](https://www.lib.umt.edu)
+- ## [Website link](http://www.lib.umt.edu/)
 - ## ![Image of my Editor](EditorImage.JPG)
