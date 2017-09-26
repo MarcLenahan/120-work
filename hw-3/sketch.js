@@ -14,6 +14,6 @@ function setup(){
 function draw(){
 
 // Using text function to write out "hello world"
-  text( "Hello World", 300, 200);
+  text( "Hello World", 640, 380);
 
 }
