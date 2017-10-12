@@ -3,7 +3,7 @@ Marc Lenahan, 50
 [Portrait Sketch]( https://marclenahan.github.io/120-work/hw-4/)
 
 
-# Homework 3 Responses
+# Homework 4 Responses
 
 TThis week the class went over drawing basic sketches using p5. For my assignment I decided to start of creating a self-portrait. After making the basics of the portrait I thought it would be fun to play around with other shapes and colors and added some weird features to my portrait. I figured that it was way more interesting seeing what I could get away with when creating the creature overall.
 ![Homework example](img/initial_start.JPG)
