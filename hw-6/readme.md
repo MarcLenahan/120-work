@@ -2,7 +2,7 @@ Marc Lenahan, 50
 
 [Algorithmic Sketch]( https://marclenahan.github.io/120-work/hw-6/)
 
-# Homework 5 Responses
+# Homework 6 Responses
 
 The work I tried to do this week was to create a sketch animation using algorithm as the driving tool to create the piece. I tried to incorporate a lot of what was asked for this week’s assignment, managing to add some things but not all the necessary components.
 
