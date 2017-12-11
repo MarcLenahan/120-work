@@ -1,35 +1,38 @@
-let bubbles = [];
 
-function setup() {
-    createCanvas(windowWidth, 600);
-    let b = new Bubble(width / 2, height / 2, 10);
-    bubbles.push(b);
-    bubbleTimer();
+
+function setup(){
+  createCanvas(500,500);
+
+
+  ball = new Ball(250,250);
 }
 
-function draw() {
-    background(0);
-    for (let i = 0; i < bubbles.length; i++) {
-        bubbles[i].move();
-        bubbles[i].show();
-    }
-}
-
-function bubbleTimer() {
-    let b = new Bubble(random(width), random(height), random(200));
-    bubbles.push(b);
-    // this has the effect of calling itself every x-milliseconds
-    setTimeout(bubbleTimer, random(2000));
+function draw(){
+  background(150);
+  ball.move();
+  ball.display();
 }
 
 
-function mousePressed() {
-    // make the bubbles check themselves
-    // to see if the mouse is within them.
-    for (let i = bubbles.length - 1; i >= 0; i--) {
-        let destroyMe = bubbles[i].mouseCheck();
-        if (destroyMe) {
-            bubbles.splice(i, 1);
-        }
-    }
+
+
+class Ball{
+  constructor(x,y){
+    this.x = x;
+    this.y = y;
+    this.x_delta = 0;
+    this.y_delta = 0;
+    this.r = 10;
+  }
+
+  display(){
+    rect(this.x,this.y, this.r,this.r);
+  }
+
+  move(){
+    this.x_delta = this.x += -1;
+    if(this.x_delta < 0){
+    this.x = width;
+  }
+  }
 }
