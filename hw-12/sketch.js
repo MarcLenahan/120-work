@@ -113,7 +113,7 @@ class Player{
         numOfBlocksDest++;
         if(numOfBlocksDest >= 100){
           blocks[i].x_delta = random(-4,0);
-        } else if(numOfBlocksDest >= 200){
+        } else if(numOfBlocksDest > 200){
           blocks[i].x_delta = random(-6,0);
         }
       }
